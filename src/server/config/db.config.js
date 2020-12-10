@@ -1,7 +1,7 @@
 module.exports = {
   HOST: 'localhost',
   USER: 'root',
-  PASSWORD: 'beLxD88813',
+  PASSWORD: '',
   DB: 'moodleAdmin',
   PORT: '3306'
 }
