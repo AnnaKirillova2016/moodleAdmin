@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <topBar/>
-<!--    <sideBar/>-->
     <v-content>
       <router-view/>
     </v-content>
@@ -9,8 +8,8 @@
 </template>
 
 <script>
-  import topBar from './components/topBar.vue'
-  import sideBar from './components/sideBar.vue'
+import topBar from './components/topBar.vue'
+import sideBar from './components/sideBar.vue'
 export default {
   name: 'App',
   components: {

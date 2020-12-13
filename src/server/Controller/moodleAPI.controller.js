@@ -1,4 +1,4 @@
-//https://wimski.org/api/3.8/d4/dec/classcore__course__category.html
+
 const request = require('request')
 
 exports.CreateCat = (req, res) => {
@@ -18,10 +18,7 @@ exports.CreateCat = (req, res) => {
     },
     json: true,
     method: 'POST'
-    /*headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      "Accept": "application/json"
-    }*/
+
   }).pipe(res)
 }
 
